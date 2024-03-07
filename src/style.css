@@ -1,3 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+
+@font-face {
+    font-family: 'FuturaPT-Bold';
+    src: url('./FuturaPT-Bold.woff') format('woff'),
+      url('./FuturaPT-Bold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaPT-Light';
+    src: url('./FuturaPT-Light.woff') format('woff'), url('./FuturaPT-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('./Poppins-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+:root {
+    --bottom-info-color: #EFAAAC;
+    --bottom-color: #0B6B66;
+    --first-main-color: #B7C58F;
+    --second-main-color: #ECD9AF;
+}
+
 h1 {
     color: red;
+}
+
+.futura-pt {
+    font-family: 'FuturaPT-Bold';
+    font-weight: 600px;
+    font-style: normal;
+}
+
+.futura-pt-light {
+    font-family: 'FuturaPT-Light';
+    font-weight: 300px;
+    font-style: normal;
+}
+
+.poppins {
+    font-family: 'Poppins';
+    font-weight: 500px;
+    font-style: normal;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+}
+
+.content--header {
+    grid-column: 1 / 2;
+    grid-row: 1;
 }
