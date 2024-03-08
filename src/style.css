@@ -30,37 +30,44 @@
     --second-main-color: #ECD9AF;
 }
 
-h1 {
-    color: red;
-}
-
-.futura-pt {
-    font-family: 'FuturaPT-Bold';
-    font-weight: 600px;
-    font-style: normal;
-}
-
-.futura-pt-light {
+a {
     font-family: 'FuturaPT-Light';
-    font-weight: 300px;
-    font-style: normal;
+    font-size: 25px;
+    color: #106E69;
+
 }
 
-.poppins {
+.wrapper--header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 180px;
+}
+
+.wrapper--header--button {
     font-family: 'Poppins';
-    font-weight: 500px;
-    font-style: normal;
+    color: #0B6B66;
+    font-size: 21px;
+    padding: 30px 50px;
+    border-radius: 300px;
+    border: #0B6B66 solid;
+    border-width: 2px;
+    background-color: white;
+    transition-duration: 0.3s;
 }
 
-#content {
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+.wrapper--header--button:hover {
+    background-color: #0B6B66;
+    color: white;
+    transition-duration: 0.3s;
 }
 
-.content--header {
-    grid-column: 1 / 2;
-    grid-row: 1;
+.wrapper--header--icon {
+    width: 180px;
+    height: 140px;
+}
+
+.wrapper--header--svg {
+    height: 50px;
+    width: 50px;
 }
