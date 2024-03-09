@@ -71,3 +71,130 @@ a {
     height: 50px;
     width: 50px;
 }
+
+.wrapper--content {
+    display: grid;
+    width: 100%;
+    height: 2500px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 0.8fr;
+}
+
+#wrapper-img1 {
+    background: url('first.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#wrapper-text1 {
+    background-color: #CAD090;
+}
+
+#wrapper-img2 {
+    grid-column: span 2;
+    background: url('./second.jpg');
+    background-size: cover; /* Измените на 'contain' или конкретный размер, если хотите */
+    background-repeat: no-repeat; /* Это предотвратит повторение изображения */
+}
+
+
+#wrapper-img3 {
+    background-size: contain!important;
+    background: url('./third1.jpg');
+}
+
+#wrapper-img3-2 {
+    background-size: contain;
+    background-repeat: no-repeat!important;
+    background: url('./third1-2.jpg');
+}
+
+#wrapper-img4 {
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background: url('./fouth1.jpg');
+}
+
+#wrapper-img4-2 {
+    background-size: contain;
+    background-repeat: no-repeat!important;
+    background: url('./fouth2.jpg');
+}
+
+#wrapper-text5 {
+    background-color: #EFAAAC;
+}
+
+#map-image {
+    height: 30rem;
+    width: 40rem;
+    margin: 50px;
+}
+
+#wrapper-img5 {
+    background-color: #EFAAAC;
+    text-align: center;
+}
+
+#wrapper-text1 {
+    font-family: 'FuturaPT-Bold';
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+#wrapper-text1_h4 {
+    width: 650px;
+    color: #0B6B66;
+}
+
+#wrapper-text1_h4_2 {
+    width: 650px;
+    color: white;
+}
+
+#wrapper-text5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'FuturaPT-Light';
+    color: white;
+    font-size: 21px;
+    padding-left: 90px;
+
+}
+
+#wrapperText5_id {
+    font-family: 'FuturaPT-Bold';
+    font-weight: bold;
+}
+
+.wrapper--header--svg {
+    height: 40px;
+    width: 40px;
+}
+
+.wrapper--bottom {
+    width: 100%;
+    height: 300px;
+    background-color: #0B6B66;
+}
+
+#bottom-text {
+    font-family: 'FuturaPT-Bold';
+    font-size: 35px;
+    font-weight: bold;
+    color: #EFAAAC;
+    margin: 0;
+    padding-top: 120px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+}
+
+.home {
+    border-bottom: #0B6B66 solid 1px;
+
+}

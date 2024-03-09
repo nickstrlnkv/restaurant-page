@@ -4,12 +4,13 @@
 This repository contains the restaurant page project. The project uses webpack. All HTML is generated with JavaScript
 
 ## 🎨 Styling
-In this project uses pure CSS, no frameworks and preprocessors.
+In this project use UI framework animate.css.
 
 ## ✨ Features
 
 - Using Flexbox
 - Using Grid
+- Using Animate.css
 
 ## 🌐 Live Demo
 
